@@ -1,0 +1,816 @@
+<satcat>
+    <satelliteStatus>
+        <item>
+            <abbrev>+</abbrev>
+            <name>Operational</name>
+        </item>
+        <item>
+            <abbrev>-</abbrev>
+            <name>Non-operational</name>
+        </item>
+        <item>
+            <abbrev>P</abbrev>
+            <name>Partially operational</name>
+        </item>
+        <item>
+            <abbrev>B</abbrev>
+            <name>Backup/Standby</name>
+        </item>
+        <item>
+            <abbrev>S</abbrev>
+            <name>Spare</name>
+        </item>
+        <item>
+            <abbrev>X</abbrev>
+            <name>Extended mission</name>
+        </item>
+        <item>
+            <abbrev>D</abbrev>
+            <name>Decayed</name>
+        </item>
+        <item>
+            <abbrev>?</abbrev>
+            <name>Unknown</name>
+        </item>
+    </satelliteStatus>
+    <satelliteOwners>
+        <item>
+            <abbrev>AB</abbrev>
+            <name>Arab Satellite Communications Organization</name>
+        </item>
+        <item>
+            <abbrev>ABS</abbrev>
+            <name>Asia Broadcast Satellite</name>
+        </item>
+        <item>
+            <abbrev>AC</abbrev>
+            <name>Asia Satellite Telecommunications Company (ASIASAT)</name>
+        </item>
+        <item>
+            <abbrev>ALG</abbrev>
+            <name>Algeria</name>
+        </item>
+        <item>
+            <abbrev>ARGN</abbrev>
+            <name>Argentina</name>
+        </item>
+        <item>
+            <abbrev>ASRA</abbrev>
+            <name>Austria</name>
+        </item>
+        <item>
+            <abbrev>AUS</abbrev>
+            <name>Australia</name>
+        </item>
+        <item>
+            <abbrev>AZER</abbrev>
+            <name>Azerbaijan</name>
+        </item>
+        <item>
+            <abbrev>BELA</abbrev>
+            <name>Belarus</name>
+        </item>
+        <item>
+            <abbrev>BERM</abbrev>
+            <name>Bermuda</name>
+        </item>
+        <item>
+            <abbrev>BOL</abbrev>
+            <name>Bolivia</name>
+        </item>
+        <item>
+            <abbrev>BRAZ</abbrev>
+            <name>Brazil</name>
+        </item>
+        <item>
+            <abbrev>CA</abbrev>
+            <name>Canada</name>
+        </item>
+        <item>
+            <abbrev>CHBZ</abbrev>
+            <name>China/Brazil</name>
+        </item>
+        <item>
+            <abbrev>CHLE</abbrev>
+            <name>Chile</name>
+        </item>
+        <item>
+            <abbrev>CIS</abbrev>
+            <name>Commonwealth of Independent States (former USSR)</name>
+        </item>
+        <item>
+            <abbrev>COL</abbrev>
+            <name>Colombia</name>
+        </item>
+        <item>
+            <abbrev>CZCH</abbrev>
+            <name>Czech Republic (former Czechoslovakia)</name>
+        </item>
+        <item>
+            <abbrev>DEN</abbrev>
+            <name>Denmark</name>
+        </item>
+        <item>
+            <abbrev>ECU</abbrev>
+            <name>Ecuador</name>
+        </item>
+        <item>
+            <abbrev>EGYP</abbrev>
+            <name>Egypt</name>
+        </item>
+        <item>
+            <abbrev>ESA</abbrev>
+            <name>European Space Agency</name>
+        </item>
+        <item>
+            <abbrev>ESRO</abbrev>
+            <name>European Space Research Organization</name>
+        </item>
+        <item>
+            <abbrev>EST</abbrev>
+            <name>Estonia</name>
+        </item>
+        <item>
+            <abbrev>EUME</abbrev>
+            <name>European Organization for the Exploitation of Meteorological Satellites (EUMETSAT)</name>
+        </item>
+        <item>
+            <abbrev>EUTE</abbrev>
+            <name>European Telecommunications Satellite Organization (EUTELSAT)</name>
+        </item>
+        <item>
+            <abbrev>FGER</abbrev>
+            <name>France/Germany</name>
+        </item>
+        <item>
+            <abbrev>FR</abbrev>
+            <name>France</name>
+        </item>
+        <item>
+            <abbrev>FRIT</abbrev>
+            <name>France/Italy</name>
+        </item>
+        <item>
+            <abbrev>GER</abbrev>
+            <name>Germany</name>
+        </item>
+        <item>
+            <abbrev>GLOB</abbrev>
+            <name>Globalstar</name>
+        </item>
+        <item>
+            <abbrev>GREC</abbrev>
+            <name>Greece</name>
+        </item>
+        <item>
+            <abbrev>HUN</abbrev>
+            <name>Hungary</name>
+        </item>
+        <item>
+            <abbrev>IM</abbrev>
+            <name>International Mobile Satellite Organization (INMARSAT)</name>
+        </item>
+        <item>
+            <abbrev>IND</abbrev>
+            <name>India</name>
+        </item>
+        <item>
+            <abbrev>INDO</abbrev>
+            <name>Indonesia</name>
+        </item>
+        <item>
+            <abbrev>IRAN</abbrev>
+            <name>Iran</name>
+        </item>
+        <item>
+            <abbrev>IRID</abbrev>
+            <name>Iridium</name>
+        </item>
+        <item>
+            <abbrev>ISRA</abbrev>
+            <name>Israel</name>
+        </item>
+        <item>
+            <abbrev>ISRO</abbrev>
+            <name>Indian Space Research Organisation</name>
+        </item>
+        <item>
+            <abbrev>ISS</abbrev>
+            <name>International Space Station</name>
+        </item>
+        <item>
+            <abbrev>IT</abbrev>
+            <name>Italy</name>
+        </item>
+        <item>
+            <abbrev>ITSO</abbrev>
+            <name>International Telecommunications Satellite Organization (INTELSAT)</name>
+        </item>
+        <item>
+            <abbrev>JPN</abbrev>
+            <name>Japan</name>
+        </item>
+        <item>
+            <abbrev>KAZ</abbrev>
+            <name>Kazakhstan</name>
+        </item>
+        <item>
+            <abbrev>LTU</abbrev>
+            <name>Lithuania</name>
+        </item>
+        <item>
+            <abbrev>LUXE</abbrev>
+            <name>Luxembourg</name>
+        </item>
+        <item>
+            <abbrev>MALA</abbrev>
+            <name>Malaysia</name>
+        </item>
+        <item>
+            <abbrev>MEX</abbrev>
+            <name>Mexico</name>
+        </item>
+        <item>
+            <abbrev>NATO</abbrev>
+            <name>North Atlantic Treaty Organization</name>
+        </item>
+        <item>
+            <abbrev>NETH</abbrev>
+            <name>Netherlands</name>
+        </item>
+        <item>
+            <abbrev>NICO</abbrev>
+            <name>New ICO</name>
+        </item>
+        <item>
+            <abbrev>NIG</abbrev>
+            <name>Nigeria</name>
+        </item>
+        <item>
+            <abbrev>NKOR</abbrev>
+            <name>Democratic People's Republic of Korea</name>
+        </item>
+        <item>
+            <abbrev>NOR</abbrev>
+            <name>Norway</name>
+        </item>
+        <item>
+            <abbrev>O3B</abbrev>
+            <name>O3b Networks</name>
+        </item>
+        <item>
+            <abbrev>ORB</abbrev>
+            <name>ORBCOMM</name>
+        </item>
+        <item>
+            <abbrev>PAKI</abbrev>
+            <name>Pakistan</name>
+        </item>
+        <item>
+            <abbrev>PERU</abbrev>
+            <name>Peru</name>
+        </item>
+        <item>
+            <abbrev>POL</abbrev>
+            <name>Poland</name>
+        </item>
+        <item>
+            <abbrev>POR</abbrev>
+            <name>Portugal</name>
+        </item>
+        <item>
+            <abbrev>PRC</abbrev>
+            <name>People's Republic of China</name>
+        </item>
+        <item>
+            <abbrev>PRES</abbrev>
+            <name>People's Republic of China/European Space Agency</name>
+        </item>
+        <item>
+            <abbrev>RASC</abbrev>
+            <name>RascomStar-QAF</name>
+        </item>
+        <item>
+            <abbrev>ROC</abbrev>
+            <name>Taiwan (Republic of China)</name>
+        </item>
+        <item>
+            <abbrev>ROM</abbrev>
+            <name>Romania</name>
+        </item>
+        <item>
+            <abbrev>RP</abbrev>
+            <name>Philippines (Republic of the Philippines)</name>
+        </item>
+        <item>
+            <abbrev>SAFR</abbrev>
+            <name>South Africa</name>
+        </item>
+        <item>
+            <abbrev>SAUD</abbrev>
+            <name>Saudi Arabia</name>
+        </item>
+        <item>
+            <abbrev>SEAL</abbrev>
+            <name>Sea Launch</name>
+        </item>
+        <item>
+            <abbrev>SES</abbrev>
+            <name>SES</name>
+        </item>
+        <item>
+            <abbrev>SING</abbrev>
+            <name>Singapore</name>
+        </item>
+        <item>
+            <abbrev>SKOR</abbrev>
+            <name>Republic of Korea</name>
+        </item>
+        <item>
+            <abbrev>SPN</abbrev>
+            <name>Spain</name>
+        </item>
+        <item>
+            <abbrev>STCT</abbrev>
+            <name>Singapore/Taiwan</name>
+        </item>
+        <item>
+            <abbrev>SWED</abbrev>
+            <name>Sweden</name>
+        </item>
+        <item>
+            <abbrev>SWTZ</abbrev>
+            <name>Switzerland</name>
+        </item>
+        <item>
+            <abbrev>THAI</abbrev>
+            <name>Thailand</name>
+        </item>
+        <item>
+            <abbrev>TURK</abbrev>
+            <name>Turkey</name>
+        </item>
+        <item>
+            <abbrev>UAE</abbrev>
+            <name>United Arab Emirates</name>
+        </item>
+        <item>
+            <abbrev>UK</abbrev>
+            <name>United Kingdom</name>
+        </item>
+        <item>
+            <abbrev>US</abbrev>
+            <name>United States</name>
+        </item>
+        <item>
+            <abbrev>USBZ</abbrev>
+            <name>United States/Brazil</name>
+        </item>
+        <item>
+            <abbrev>VENZ</abbrev>
+            <name>Venezuela</name>
+        </item>
+        <item>
+            <abbrev>VTNM</abbrev>
+            <name>Vietnam</name>
+        </item>
+    </satelliteOwners>
+    <launchSites>
+        <item>
+            <abbrev>AFETR</abbrev>
+            <name>Air Force Eastern Test Range, Florida, USA</name>
+        </item>
+        <item>
+            <abbrev>AFWTR</abbrev>
+            <name>Air Force Western Test Range, California, USA</name>
+        </item>
+        <item>
+            <abbrev>CAS</abbrev>
+            <name>Canaries Airspace</name>
+        </item>
+        <item>
+            <abbrev>DLS</abbrev>
+            <name>Dombarovskiy Launch Site, Russia</name>
+        </item>
+        <item>
+            <abbrev>ERAS</abbrev>
+            <name>Eastern Range Airspace</name>
+        </item>
+        <item>
+            <abbrev>FRGUI</abbrev>
+            <name>Europe's Spaceport, Kourou, French Guiana</name>
+        </item>
+        <item>
+            <abbrev>HGSTR</abbrev>
+            <name>Hammaguira Space Track Range, Algeria</name>
+        </item>
+        <item>
+            <abbrev>JSC</abbrev>
+            <name>Jiuquan Space Center, PRC</name>
+        </item>
+        <item>
+            <abbrev>KODAK</abbrev>
+            <name>Kodiak Launch Complex, Alaska, USA</name>
+        </item>
+        <item>
+            <abbrev>KSCUT</abbrev>
+            <name>Uchinoura Space Center (Fomerly Kagoshima Space Center-University of Tokyo, Japan)</name>
+        </item>
+        <item>
+            <abbrev>KWAJ</abbrev>
+            <name>US Army Kwajalein Atoll (USAKA)</name>
+        </item>
+        <item>
+            <abbrev>KYMSC</abbrev>
+            <name>Kapustin Yar Missile and Space Complex, Russia</name>
+        </item>
+        <item>
+            <abbrev>NSC</abbrev>
+            <name>Naro Space Complex, Republic of Korea</name>
+        </item>
+        <item>
+            <abbrev>PLMSC</abbrev>
+            <name>Plesetsk Missile and Space Complex, Russia</name>
+        </item>
+        <item>
+            <abbrev>SEAL</abbrev>
+            <name>Sea Launch Platform (mobile)</name>
+        </item>
+        <item>
+            <abbrev>SEMLS</abbrev>
+            <name>Semnan Satellite Launch Site, Iran</name>
+        </item>
+        <item>
+            <abbrev>SNMLP</abbrev>
+            <name>San Marco Launch Platform, Indian Ocean (Kenya)</name>
+        </item>
+        <item>
+            <abbrev>SRILR</abbrev>
+            <name>Satish Dhawan Space Centre, India (Formerly Sriharikota Launching Range)</name>
+        </item>
+        <item>
+            <abbrev>SUBL</abbrev>
+            <name>Submarine Launch Platform (mobile), Russia</name>
+        </item>
+        <item>
+            <abbrev>SVOBO</abbrev>
+            <name>Svobodnyy Launch Complex, Russia</name>
+        </item>
+        <item>
+            <abbrev>TAISC</abbrev>
+            <name>Taiyuan Space Center, PRC</name>
+        </item>
+        <item>
+            <abbrev>TANSC</abbrev>
+            <name>Tanegashima Space Center, Japan</name>
+        </item>
+        <item>
+            <abbrev>TYMSC</abbrev>
+            <name>Tyuratam Missile and Space Center, Kazakhstan (Also known as Baikonur Cosmodrome)</name>
+        </item>
+        <item>
+            <abbrev>VOSTO</abbrev>
+            <name>Vostochny Cosmodrome, Russia</name>
+        </item>
+        <item>
+            <abbrev>WLPIS</abbrev>
+            <name>Wallops Island, Virginia, USA</name>
+        </item>
+        <item>
+            <abbrev>WOMRA</abbrev>
+            <name>Woomera, Australia</name>
+        </item>
+        <item>
+            <abbrev>WRAS</abbrev>
+            <name>Western Range Airspace</name>
+        </item>
+        <item>
+            <abbrev>WSC</abbrev>
+            <name>Wenchang Satellite Launch Center, PRC</name>
+        </item>
+        <item>
+            <abbrev>XICLF</abbrev>
+            <name>Xichang Launch Facility, PRC</name>
+        </item>
+        <item>
+            <abbrev>YAVNE</abbrev>
+            <name>Yavne Launch Facility, Israel</name>
+        </item>
+        <item>
+            <abbrev>YUN</abbrev>
+            <name>Yunsong Launch Site (Sohae Satellite Launching Station), Democratic People's Republic of Korea</name>
+        </item>
+    </launchSites>
+    <orbitalFates>
+        <item>
+            <abbrev>0</abbrev>
+            <name>Orbit</name>
+        </item>
+        <item>
+            <abbrev>1</abbrev>
+            <name>Landing</name>
+        </item>
+        <item>
+            <abbrev>2</abbrev>
+            <name>Impact</name>
+        </item>
+        <item>
+            <abbrev>3</abbrev>
+            <name>Round-trip</name>
+        </item>
+    </orbitalFates>
+    <orbitalParents>
+        <item>
+            <abbrev>AS</abbrev>
+            <name>Asteroid</name>
+            <adjective>Asteroidal</adjective>
+        </item>
+        <item>
+            <abbrev>EA</abbrev>
+            <name>Earth</name>
+            <adjective>Earth</adjective>
+        </item>
+        <item>
+            <abbrev>EL</abbrev>
+            <name>Earth Lagrange</name>
+            <adjective>Earth Lagrange</adjective>
+        </item>
+        <item>
+            <abbrev>EM</abbrev>
+            <name>Earth-Moon Barycenter</name>
+            <adjective>Earth-Moon Barycenter</adjective>
+        </item>
+        <item>
+            <abbrev>JU</abbrev>
+            <name>Jupiter</name>
+            <adjective>Jovian</adjective>
+        </item>
+        <item>
+            <abbrev>MA</abbrev>
+            <name>Mars</name>
+            <adjective>Martian</adjective>
+        </item>
+        <item>
+            <abbrev>ME</abbrev>
+            <name>Mercury</name>
+            <adjective>Mercurian</adjective>
+        </item>
+        <item>
+            <abbrev>MO</abbrev>
+            <name>The Moon</name>
+            <adjective>Lunar</adjective>
+        </item>
+        <item>
+            <abbrev>NE</abbrev>
+            <name>Neptune</name>
+            <adjective>Neptunian</adjective>
+        </item>
+        <item>
+            <abbrev>PL</abbrev>
+            <name>Pluto</name>
+            <adjective>Plutonian</adjective>
+        </item>
+        <item>
+            <abbrev>SA</abbrev>
+            <name>Saturn</name>
+            <adjective>Saturnian</adjective>
+        </item>
+        <item>
+            <abbrev>SS</abbrev>
+            <name>Solar System Escape</name>
+            <adjective>Solar System Escape</adjective>
+        </item>
+        <item>
+            <abbrev>SU</abbrev>
+            <name>Sun</name>
+            <adjective>Solar</adjective>
+        </item>
+        <item>
+            <abbrev>UR</abbrev>
+            <name>Uranus</name>
+            <adjective>Uranian</adjective>
+        </item>
+        <item>
+            <abbrev>VE</abbrev>
+            <name>Venus</name>
+            <adjective>Venusian</adjective>
+        </item>
+    </orbitalParents>
+    <leoGroups>
+        <item>
+            <group>Recent launches</group>
+            <subgroup>Recent launches</subgroup>
+            <url>tle-new.txt</url>
+        </item>
+        <item>
+            <group>Bright satellites</group>
+            <subgroup>Space stations</subgroup>
+            <url>stations.txt</url>
+        </item>
+        <item>
+            <group>Bright satellites</group>
+            <subgroup>Assorted bright</subgroup>
+            <url>visual.txt</url>
+        </item>
+        <item>
+            <group>Bright satellites</group>
+            <subgroup>Starlink</subgroup>
+            <url>starlink.txt</url>
+        </item>
+        <item>
+            <group>Earth monitoring</group>
+            <subgroup>Weather</subgroup>
+            <url>weather.txt</url>
+        </item>
+        <item>
+            <group>Earth monitoring</group>
+            <subgroup>NOAA</subgroup>
+            <url>noaa.txt</url>
+        </item>
+        <item>
+            <group>Earth monitoring</group>
+            <subgroup>GOES</subgroup>
+            <url>goes.txt</url>
+        </item>
+        <item>
+            <group>Earth monitoring</group>
+            <subgroup>Earth Resources</subgroup>
+            <url>resource.txt</url>
+        </item>
+        <item>
+            <group>Earth monitoring</group>
+            <subgroup>Search &amp; Rescue (SARSAT)</subgroup>
+            <url>sarsat.txt</url>
+        </item>
+        <item>
+            <group>Earth monitoring</group>
+            <subgroup>Disaster Monitoring</subgroup>
+            <url>dmc.txt</url>
+        </item>
+        <item>
+            <group>Earth monitoring</group>
+            <subgroup>Tracking and Data Relay Satellite System (TDRSS)</subgroup>
+            <url>tdrss.txt</url>
+        </item>
+        <item>
+            <group>Earth monitoring</group>
+            <subgroup>ARGOS Data Collection System</subgroup>
+            <url>argos.txt</url>
+        </item>
+        <item>
+            <group>Earth monitoring</group>
+            <subgroup>Planet</subgroup>
+            <url>planet.txt</url>
+        </item>
+        <item>
+            <group>Earth monitoring</group>
+            <subgroup>Spire</subgroup>
+            <url>spire.txt</url>
+        </item>
+        <item>
+            <group>Communications</group>
+            <subgroup>Geostationary</subgroup>
+            <url>geo.txt</url>
+        </item>
+        <item>
+            <group>Communications</group>
+            <subgroup>Intelsat</subgroup>
+            <url>intelsat.txt</url>
+        </item>
+        <item>
+            <group>Communications</group>
+            <subgroup>SES</subgroup>
+            <url>ses.txt</url>
+        </item>
+        <item>
+            <group>Communications</group>
+            <subgroup>Iridium</subgroup>
+            <url>iridium.txt</url>
+        </item>
+        <item>
+            <group>Communications</group>
+            <subgroup>Iridium NEXT</subgroup>
+            <url>iridium-NEXT.txt</url>
+        </item>
+        <item>
+            <group>Communications</group>
+            <subgroup>Orbcomm</subgroup>
+            <url>orbcomm.txt</url>
+        </item>
+        <item>
+            <group>Communications</group>
+            <subgroup>Globalstar</subgroup>
+            <url>globalstar.txt</url>
+        </item>
+        <item>
+            <group>Communications</group>
+            <subgroup>Amateur Radio</subgroup>
+            <url>amateur.txt</url>
+        </item>
+        <item>
+            <group>Communications</group>
+            <subgroup>Experimental</subgroup>
+            <url>x-comm.txt</url>
+        </item>
+        <item>
+            <group>Communications</group>
+            <subgroup>Other Comm</subgroup>
+            <url>other-comm.txt</url>
+        </item>
+        <item>
+            <group>Communications</group>
+            <subgroup>Gorizont</subgroup>
+            <url>gorizont.txt</url>
+        </item>
+        <item>
+            <group>Communications</group>
+            <subgroup>Raduga</subgroup>
+            <url>raduga.txt</url>
+        </item>
+        <item>
+            <group>Communications</group>
+            <subgroup>Molniya</subgroup>
+            <url>molniya.txt</url>
+        </item>
+        <item>
+            <group>Navigation</group>
+            <subgroup>GPS Operational</subgroup>
+            <url>gps-ops.txt</url>
+        </item>
+        <item>
+            <group>Navigation</group>
+            <subgroup>Glonass Operational</subgroup>
+            <url>glo-ops.txt</url>
+        </item>
+        <item>
+            <group>Navigation</group>
+            <subgroup>Galileo</subgroup>
+            <url>galileo.txt</url>
+        </item>
+        <item>
+            <group>Navigation</group>
+            <subgroup>Beidou</subgroup>
+            <url>beidou.txt</url>
+        </item>
+        <item>
+            <group>Navigation</group>
+            <subgroup>Satellite-Based Augmentation System (WAAS/EGNOS/MSAS)</subgroup>
+            <url>sbas.txt</url>
+        </item>
+        <item>
+            <group>Navigation</group>
+            <subgroup>Navy Navigation Satellite System (NNSS)</subgroup>
+            <url>nnss.txt</url>
+        </item>
+        <item>
+            <group>Navigation</group>
+            <subgroup>Russian LEO Navigation</subgroup>
+            <url>musson.txt</url>
+        </item>
+        <item>
+            <group>Scientific satellites</group>
+            <subgroup>Space &amp; Earth Science</subgroup>
+            <url>science.txt</url>
+        </item>
+        <item>
+            <group>Scientific satellites</group>
+            <subgroup>Geodetic</subgroup>
+            <url>geodetic.txt</url>
+        </item>
+        <item>
+            <group>Scientific satellites</group>
+            <subgroup>Engineering</subgroup>
+            <url>engineering.txt</url>
+        </item>
+        <item>
+            <group>Scientific satellites</group>
+            <subgroup>Education</subgroup>
+            <url>education.txt</url>
+        </item>
+        <item>
+            <group>Miscellaneous</group>
+            <subgroup>Miscellaneous Military</subgroup>
+            <url>military.txt</url>
+        </item>
+        <item>
+            <group>Miscellaneous</group>
+            <subgroup>Radar Calibration</subgroup>
+            <url>radar.txt</url>
+        </item>
+        <item>
+            <group>Miscellaneous</group>
+            <subgroup>CubeSats</subgroup>
+            <url>cubesat.txt</url>
+        </item>
+        <item>
+            <group>Miscellaneous</group>
+            <subgroup>Other</subgroup>
+            <url>other.txt</url>
+        </item>
+        <item>
+            <group>Bright satellites</group>
+            <subgroup>Hubble ST</subgroup>
+            <url>[20580]</url>
+        </item>
+    </leoGroups>
+</satcat>
