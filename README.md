@@ -48,3 +48,7 @@ orbital elements into your data archive (perhaps daily).
 There's currently no API for this other than making direct SQL queries to the
 database, but the schema of the data is pretty obvious!
 
+## Author
+
+This code was developed by Dominic Ford <https://dcford.org.uk>. It is distributed under the Gnu General Public License V3.
+
